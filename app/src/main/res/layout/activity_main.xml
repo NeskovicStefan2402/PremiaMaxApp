@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grey"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="624dp"
+        android:layout_height="530dp"
+        android:layout_x="0dp"
+        android:layout_y="284dp"
+        android:background="@color/bela"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textViewInfo"
+                android:layout_width="352dp"
+                android:layout_height="297dp"
+                android:layout_x="0dp"
+                android:layout_y="0dp"
+                android:text="Premia Max je jedna od vodecih menjacnica u Beogradu. Smestena je u samom centru grada, sa pogledom na prostarne ulice nase prestonice. Nasa firma posluje sa tradicijom od citavih 20 godina. Nalazimo se na adresi Ul. Francuska 37/A, na uglu pomenute i ulice cara Dusana. Vrhunska usluga, profesionalizam, ljubaznost, diskrecija i pouzdanost, naši su maniri u poslovanju i odnosu sa našim klijentima. Dimenzijama, stručnim timom, snagom kapitala, te stalnim širenjem i ulaganjem na tržištu sebe možemo bez lažne skromnosti nazvati liderom u poslovanju menjačkim uslugama. Brojem valuta i povoljnoscu kursa smatramo da smo najfleksibilnija menjacnica u centru Beograda ali i sire."
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintLeft_toRightOf="@id/imageView"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="245dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="153dp"
+                android:layout_height="117dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/menjacnica"
+                tools:layout_editor_absoluteX="128dp"
+                tools:layout_editor_absoluteY="472dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="352dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Menjačnica Premia Max se bavi menjačkim poslovima preko 20 godina (od 1990. godine), tokom kojih je svojom sigurnom i proverenom uslugom stekla brojnu klijentelu. Godine 2000. postajemo ovlašćena menjačnica Narodne banke Srbije. Vremenom smo razvili posao tako da sada svoje povoljne usluge nudimo u 20 menjačnica u Beogradu. Naša usluga je brza, sigurna, bezbedna i povoljna. Učinite je još povoljnijom tako što ćete nas kontaktirati i doći na dogovor. Za veće konverzije dajemo izuzetno povoljne uslove. Pored najčešće konverzije dinar-evro vršimo i otkup valute koje su prestale da važe od pojave evra. Za sve veće transakcije, pozovite da se dogovorimo."
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="153dp"
+                android:layout_height="117dp"
+                android:layout_marginLeft="200dp"
+                app:srcCompat="@drawable/logo" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="203dp"
+        android:layout_height="131dp"
+        android:layout_x="14dp"
+        android:layout_y="5dp"
+        app:srcCompat="@drawable/logopremiamax"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <Button
+        android:id="@+id/KursnalistaBtn"
+        android:layout_width="95dp"
+        android:layout_height="88dp"
+        android:layout_x="196dp"
+        android:layout_y="195dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="kursnaListaKlik"
+        android:text="Kursna lista"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+
+    <Button
+        android:id="@+id/kalkulatorBtn"
+        android:layout_width="95dp"
+        android:layout_height="88dp"
+        android:layout_x="98dp"
+        android:layout_y="195dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="kalkulatorKlik"
+        android:text="Kalkulator"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <Button
+        android:id="@+id/KontaktBtn"
+        android:layout_width="95dp"
+        android:layout_height="88dp"
+        android:layout_x="294dp"
+        android:layout_y="195dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="kontaktKlik"
+        android:text="Kontakt"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="95dp"
+        android:layout_height="88dp"
+        android:layout_x="0dp"
+        android:layout_y="195dp"
+        android:background="@drawable/radius_btn"
+        android:text="O nama"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="63dp"
+        android:layout_height="52dp"
+        android:layout_x="325dp"
+        android:layout_y="7dp"
+        android:background="@drawable/profile"
+        android:onClick="Login"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="13dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="320dp"
+        android:layout_y="68dp"
+        android:text="Prijavite se"
+        android:textColor="#E4FFFFFF"
+        tools:layout_editor_absoluteX="334dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+</AbsoluteLayout>

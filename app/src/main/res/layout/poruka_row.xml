@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/svBela">
+
+    <TextView
+        android:id="@+id/txtMail"
+        android:layout_width="245dp"
+        android:layout_height="35dp"
+        android:layout_x="108dp"
+        android:layout_y="11dp"
+        android:gravity="left"
+        android:text="mail"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="73dp"
+        android:layout_height="84dp"
+        android:layout_x="14dp"
+        android:layout_y="11dp"
+        app:srcCompat="@drawable/mail"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="23dp" />
+
+    <TextView
+        android:id="@+id/txtPoruka"
+        android:layout_width="255dp"
+        android:layout_height="35dp"
+        android:layout_x="100dp"
+        android:layout_y="54dp"
+        android:gravity="left"
+        android:text="Message"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="15dp" />
+
+</AbsoluteLayout>

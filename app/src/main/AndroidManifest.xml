@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        android:maxSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logopremiamax"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".odgovor_Poruka"></activity>
+        <activity android:name=".statistika" />
+        <activity android:name=".listingPoruka" />
+        <activity
+            android:name=".AdminPodmeni"
+            android:label="@string/title_activity_admin_podmeni"
+            android:theme="@style/NoActionBar" />
+        <activity android:name=".AdminActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity android:name=".Kontakt" />
+        <activity android:name=".KursnaLista" />
+        <activity android:name=".kalkulatorActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

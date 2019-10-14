@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPodmeni"
+    android:background="@drawable/grey"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="156dp"
+        android:layout_height="38dp"
+        android:layout_x="243dp"
+        android:layout_y="75dp"
+        android:background="@color/svBela"
+
+        android:text="dejopop69"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="337dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="65dp"
+        android:layout_height="59dp"
+        android:layout_x="324dp"
+        android:layout_y="4dp"
+        app:srcCompat="@drawable/profile"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="203dp"
+        android:layout_height="131dp"
+        android:layout_x="14dp"
+        android:layout_y="5dp"
+        app:srcCompat="@drawable/logopremiamax"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="426dp"
+        android:layout_height="663dp"
+        android:layout_x="0dp"
+        android:layout_y="182dp"
+        app:srcCompat="@color/siva"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="140dp"
+        android:layout_height="51dp"
+        android:layout_x="226dp"
+        android:layout_y="658dp"
+        android:text="Odjavite se"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="140dp"
+        android:layout_height="51dp"
+        android:layout_x="41dp"
+        android:layout_y="399dp"
+        android:text="Izmeni kurs"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_x="32dp"
+        android:layout_y="657dp"
+        android:text="Procitajte poruke "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="30dp"
+        android:layout_y="233dp"
+        android:background="@drawable/edit"
+        android:onClick="izmeni1"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="227dp"
+        android:layout_y="233dp"
+        android:background="@drawable/statistics"
+        android:onClick="statistika"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="203dp"
+        android:layout_height="51dp"
+        android:layout_x="206dp"
+        android:layout_y="399dp"
+        android:text="Analiziraj poslovanje"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="31dp"
+        android:layout_y="491dp"
+        app:srcCompat="@drawable/mail"
+        android:onClick="listing"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="227dp"
+        android:layout_y="490dp"
+        app:srcCompat="@drawable/logout"
+        android:onClick="odjava"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="501dp" />
+</AbsoluteLayout>

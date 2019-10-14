@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grey"
+    android:padding="10dp"
+    tools:context=".kalkulatorActivity">
+
+    <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="203dp"
+            android:layout_height="131dp"
+            android:layout_x="14dp"
+            android:layout_y="5dp"
+            app:srcCompat="@drawable/logopremiamax"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+    <Button
+        android:id="@+id/KursnalistaBtn"
+        android:layout_width="95dp"
+        android:layout_height="88dp"
+        android:layout_x="196dp"
+        android:layout_y="195dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="KursnaLista"
+        android:text="Kursna lista"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+
+        <Button
+            android:id="@+id/kalkulatorBtn"
+            android:layout_width="95dp"
+            android:layout_height="88dp"
+            android:layout_x="98dp"
+            android:layout_y="195dp"
+            android:background="@drawable/radius_btn"
+            android:text="Kalkulator"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="255dp" />
+
+    <Button
+        android:id="@+id/KontaktBtn"
+        android:layout_width="95dp"
+        android:layout_height="88dp"
+        android:layout_x="294dp"
+        android:layout_y="195dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="Kontakt"
+        android:text="Kontakt"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="95dp"
+        android:layout_height="88dp"
+        android:layout_x="0dp"
+        android:layout_y="195dp"
+        android:background="@drawable/radius_btn"
+        android:onClick="Onama"
+        android:text="O nama"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="400dp"
+        android:layout_height="530dp"
+        android:layout_x="-9dp"
+        android:layout_y="302dp"
+        app:srcCompat="@color/bela"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <ScrollView
+        android:layout_width="144dp"
+        android:layout_height="248dp"
+        android:layout_x="238dp"
+        android:layout_y="465dp"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="416dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textEvroI"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/svBela"
+                android:gravity="center"
+                android:onClick="izaberiEvroI"
+                android:text="Evro"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textDolarI"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/svBela"
+                android:gravity="center"
+                android:onClick="izaberiDolarI"
+                android:text="Dolar"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textKMI"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/svBela"
+                android:gravity="center"
+                android:onClick="izaberiKMI"
+                android:text="Konvertibilna marka"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textFuntaI"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/svBela"
+                android:gravity="center"
+                android:onClick="izaberiFuntuI"
+                android:text="Funta"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textDinarI"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/svBela"
+                android:gravity="center"
+                android:onClick="izaberiDinarI"
+                android:text="Dinar"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="144dp"
+        android:layout_height="252dp"
+        android:layout_x="24dp"
+        android:layout_y="463dp"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="416dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textEvro"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/svBela"
+                android:gravity="center"
+                android:onClick="izaberiEvro"
+                android:text="Evro"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textDolar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/svBela"
+                android:gravity="center"
+                android:onClick="izaberiDolar"
+                android:text="Dolar"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textKM"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/svBela"
+                android:gravity="center"
+                android:onClick="izaberiKM"
+                android:text="Konvertibilna marka"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textFunta"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/svBela"
+                android:gravity="center"
+                android:onClick="izaberiFuntu"
+                android:text="Funta"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textDinar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/svBela"
+                android:gravity="center"
+                android:onClick="izaberiDinar"
+                android:text="Dinar"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/editTextUlog"
+        android:layout_width="155dp"
+        android:layout_height="46dp"
+        android:layout_x="19dp"
+        android:layout_y="385dp"
+        android:background="@drawable/radius_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <TextView
+        android:id="@+id/TextViewIznos"
+        android:layout_width="155dp"
+        android:layout_height="46dp"
+        android:layout_x="233dp"
+        android:layout_y="387dp"
+        android:background="@drawable/radius_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="91dp"
+        android:layout_height="77dp"
+        android:layout_x="166dp"
+        android:layout_y="738dp"
+        android:background="@drawable/btn"
+        android:onClick="izracunaj"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="765dp" />
+
+</AbsoluteLayout>

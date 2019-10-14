@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grey"
+    android:padding="10dp"
+    tools:context=".listingPoruka">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="132dp"
+            android:layout_height="38dp"
+            android:layout_x="257dp"
+            android:layout_y="75dp"
+            android:background="@color/svBela"
+            android:gravity="center|center_vertical"
+
+            android:text="dejopop69"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="337dp"
+            tools:layout_editor_absoluteY="89dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="65dp"
+            android:layout_height="59dp"
+            android:layout_x="324dp"
+            android:layout_y="4dp"
+            app:srcCompat="@drawable/profile"
+            tools:layout_editor_absoluteX="269dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+    <ListView
+        android:id="@+id/androidList"
+        android:layout_width="400dp"
+        android:layout_height="631dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="21dp"
+        android:layout_y="180dp"
+        android:background="@color/siva" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="203dp"
+            android:layout_height="131dp"
+            android:layout_x="14dp"
+            android:layout_y="5dp"
+            app:srcCompat="@drawable/logopremiamax"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+
+</AbsoluteLayout>

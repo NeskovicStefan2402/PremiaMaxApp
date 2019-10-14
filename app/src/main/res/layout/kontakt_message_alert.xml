@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/email1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_x="0dp"
+        android:layout_y="6dp"
+        android:background="@drawable/radius_txt"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/message1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="16dp"
+        android:layout_x="-1dp"
+        android:layout_y="59dp"
+        android:fontFamily="sans-serif"
+        android:background="@drawable/radius_txt"
+        android:gravity="left"
+        android:hint="Poruka"
+        android:inputType="textUri|textLongMessage" />
+
+</AbsoluteLayout>

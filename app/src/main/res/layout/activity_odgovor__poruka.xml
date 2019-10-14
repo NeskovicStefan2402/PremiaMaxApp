@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/grey"
+    tools:context=".odgovor_Poruka">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="426dp"
+        android:layout_height="845dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        app:srcCompat="@color/siva"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <ImageView
+        android:id="@+id/imageViewResponse"
+        android:layout_width="121dp"
+        android:layout_height="110dp"
+        android:layout_x="242dp"
+        android:layout_y="693dp"
+        android:onClick="odgovori"
+        app:srcCompat="@drawable/truebtn"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="682dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="69dp"
+        android:layout_height="69dp"
+        android:layout_x="20dp"
+        android:layout_y="169dp"
+        app:srcCompat="@drawable/profile"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:id="@+id/textViewFrom"
+        android:layout_width="239dp"
+        android:layout_height="58dp"
+        android:layout_x="117dp"
+        android:layout_y="89dp"
+        android:background="@drawable/radius_txt"
+        android:gravity="left|center_vertical"
+        android:hint="Salje"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <EditText
+        android:id="@+id/textViewTo"
+        android:layout_width="239dp"
+        android:layout_height="58dp"
+        android:layout_x="121dp"
+        android:layout_y="174dp"
+        android:background="@drawable/radius_txt"
+        android:gravity="left|center_vertical"
+        android:hint="Prima"
+        android:textColorHint="#000000"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="69dp"
+        android:layout_height="69dp"
+        android:layout_x="21dp"
+        android:layout_y="81dp"
+        app:srcCompat="@drawable/profile"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <EditText
+        android:id="@+id/editTextOdg"
+        android:layout_width="328dp"
+        android:layout_height="280dp"
+        android:layout_x="23dp"
+        android:layout_y="400dp"
+        android:background="@drawable/radius_txt"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="Odgovor"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <ImageView
+        android:id="@+id/imageViewCancel"
+        android:layout_width="121dp"
+        android:layout_height="110dp"
+        android:layout_x="44dp"
+        android:layout_y="694dp"
+        android:onClick="ponistiOdg"
+        app:srcCompat="@drawable/falsebtn"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="682dp" />
+
+    <TextView
+        android:id="@+id/textViewPoruka"
+        android:layout_width="328dp"
+        android:layout_height="87dp"
+        android:layout_x="22dp"
+        android:layout_y="276dp"
+        android:background="@drawable/radius_txt"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_x="33dp"
+        android:layout_y="366dp"
+        android:gravity="center"
+        android:text="______________________________________________"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="391dp" />
+</AbsoluteLayout>
